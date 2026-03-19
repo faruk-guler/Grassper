@@ -1,0 +1,100 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_scratch.txt
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The Python PythonCard framework generates a .pyc
+*.pyc
+
+# The .vsc directory contains internal VS Code state and settings
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/out/
+**/android/local.properties
+**/android/flutter_plugin_android_binaries_*.jar
+**/android/sdk.dir
+**/android/app/src/main/res/drawable-*/
+**/android/app/src/main/res/mipmap-*/
+
+# iOS related
+**/ios/DerivedData/
+**/ios/Pods/
+**/ios/Runner/.last_build_id
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/ServiceDefinitions.json
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flash/GeneratedPluginRegistrant.*
+**/ios/.generated/
+
+# Windows related
+**/windows/flutter/ephemeral/
+**/windows/flutter/generated/
+
+# macOS related
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/generated/
+
+# Linux related
+**/linux/flutter/ephemeral/
+**/linux/flutter/generated/
+
+# Web related
+**/lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Executable distributions
+*.apk
+*.aab
+*.app
+*.ipa
+
+# External packages
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Other
+.DS_Store
+.env
+.env.*
+node_modules/
+dist/
+build/
